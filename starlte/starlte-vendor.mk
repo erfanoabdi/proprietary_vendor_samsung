@@ -73,9 +73,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libblurdetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurdetection.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libblurdetection_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurdetection_interface.so \
+    vendor/samsung/starlte/proprietary/vendor/lib/libcnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcnn.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libfocuspeaking_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfocuspeaking_interface.so \
+    vendor/samsung/starlte/proprietary/vendor/lib/libhfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfd.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libhifills_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills_interface.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifistill.so \
     vendor/samsung/starlte/proprietary/vendor/lib/libhifistill_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifistill_tuning.so \

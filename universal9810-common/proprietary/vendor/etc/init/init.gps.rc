@@ -40,7 +40,6 @@ service gpsd /vendor/bin/hw/gpsd -c /vendor/etc/gnss/gps.xml
     user gps
     group system inet net_raw wakelock
     ioprio be 0
-    seclabel u:r:gpsd:s0
 service gllogd /vendor/bin/hw/gllogd
     class main
     user gps
