@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libskeymaster.so:system/lib64/libskeymaster.so \
     vendor/samsung/universal9810-common/proprietary/lib64/libsxqk_skia.so:system/lib64/libsxqk_skia.so \
-    vendor/samsung/universal9810-common/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/samsung/universal9810-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:system/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal9810-common/proprietary/media/battery_error.spi:system/media/battery_error.spi \
     vendor/samsung/universal9810-common/proprietary/media/battery_low.spi:system/media/battery_low.spi \
@@ -250,6 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.sechook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
+    vendor/samsung/universal9810-common/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
     vendor/samsung/universal9810-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
